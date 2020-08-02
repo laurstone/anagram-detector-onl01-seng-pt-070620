@@ -10,8 +10,8 @@ attr_accessor :detector
 
   end
 
-  def match(letter)
-    letter = %w()
+  def match(array)
+    array = %w()
 
   end
 end
