@@ -1,19 +1,17 @@
 # Your code goes here!
-# Your code goes here!
 require 'pry'
 
-class Anagram 
-  attr_accessor :word
-  
-  def match(array)
+class Anagram
 
-    array.collect do|arr_word| 
-      
-      	if arr_word.sort == @word.sort
-    end
-      
-   end 
-      
-end
-  
+attr_accessor :detector
+
+  def initialize (detector)
+    @detector = detector
+
+  end
+
+  def match(letter)
+    letter = %w()
+
+  end
 end
