@@ -10,8 +10,13 @@ attr_accessor :detector
 
   end
 
-  def match(array)
-    array = %w()
-
+  def match(words)
+    matches = []
+    words.each do |word|
+      if word.split("").sort == @word.split("").sort
+       matches << word.split.sort
+     end
+    end
+    matches
   end
 end
