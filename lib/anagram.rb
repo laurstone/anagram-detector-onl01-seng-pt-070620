@@ -12,6 +12,8 @@ attr_accessor :detector
 
   def match(array)
     array = %w()
+    newArray = array.select {|x| x.split("")
+    binding.pry
 
   end
 end
